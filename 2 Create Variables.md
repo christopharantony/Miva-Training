@@ -1,4 +1,5 @@
 # Create Variable
+[Official Training Video](https://docs.miva.com/videos/assign-eval)
 ![WhatsApp Image 2022-09-23 at 11 00 56 AM](https://user-images.githubusercontent.com/99424113/192264309-212f76c1-457a-4e9f-a363-7ee2a0e3df44.jpeg)
 
 
@@ -17,3 +18,11 @@ Take user side ( Miva Storefront ) => Select Sale
 
 ### Click the Sale you can see the variable there.  
 ![image](https://user-images.githubusercontent.com/99424113/192263721-0911add0-c3e2-4fee-bbf8-037ae73e9816.png)
+
+Practice more like this.😉
+```html
+<mvt:assign name="g.name" value="'Christophar Antony'" />
+<mvt:assign name="g.length" value=" 100 - len(g.name) $ ' Left in 100'" />
+&mvt:global:length;
+&mvt:global:name;
+```
