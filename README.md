@@ -1,2 +1,2 @@
-﻿# Miva-Training
+# Miva-Training
 ## Starting
