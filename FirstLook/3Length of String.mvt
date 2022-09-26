@@ -1,0 +1,2 @@
+<mvt:assign name="g.length" value="len('ChristopharAntony')" />
+&mvt:global:length;

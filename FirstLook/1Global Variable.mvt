@@ -1,0 +1,3 @@
+<mvt:assign name="g.name" value=" 'String' " />
+&mvt:global:name;
+<mvt:eval expr="g.name" />
