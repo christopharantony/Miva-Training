@@ -2,11 +2,12 @@
 [Official Training Video](https://docs.miva.com/videos/assign-eval)
 ![WhatsApp Image 2022-09-23 at 11 00 56 AM](https://user-images.githubusercontent.com/99424113/192264309-212f76c1-457a-4e9f-a363-7ee2a0e3df44.jpeg)
 
-
+First line is for creating variable.  
+Second line is an entity. Entity only for output.
 ## Let's Practice
 Take admin side => Search Sale => Select Categories => sale => Header & Footer => Header
 ```html
-<mvt:assign name="g.name" value=" 'String' " />
+<mvt:assign name="g.name" value=" 'String' " /> 
 &mvt:global:name;
 <mvt:eval expr="g.name" />
 ```
